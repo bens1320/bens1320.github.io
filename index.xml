@@ -6,10 +6,24 @@
     <description>Recent content on bens的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh=Hans</language>
-    <lastBuildDate>Thu, 21 Nov 2019 21:35:32 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 22 Nov 2019 17:01:52 +0800</lastBuildDate>
     
 	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>如何用hugo搭建个人博客</title>
+      <link>http://example.org/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Fri, 22 Nov 2019 17:01:52 +0800</pubDate>
+      
+      <guid>http://example.org/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>8. 【Git入门】个人博客搭建与域名购买 8.1 Hugo 搭建个人博客  MAC 安装
+brew install hugo hugo version  看文档搞出网站
+ 进入Hugo官网, 跟着操作Step2到Step7 创建的文件名为 xxx.github.io-generator 中文配置为zh-Hans 得到一个public目录, 这就是我们博客站点 hugo server -D 可以预览草稿 hugo server 可以浏览非草稿  与Github Pages绑定
+ xxx.github.io-generator中创建.gitignore忽略/public/文件 进入public后, git初始化 创建repo名为xxx.github.io-generator 连接public远程 查看git中setting的GitHub Pages  换主题
+ 进入hugo主题页面 在 xxx.github.io-generator目录下clone 下载好主题后,进行hugo -D 然后进入public, 提交到git远程   8.2 购买域名 namesilo(方便) - 取消自动续费 - 不保护隐私 - 除了邮箱信息真实外, 其他随意填.
+8.3 域名配置  配置DNS  把现有的无关配置删除 配置四条A记录到185.</description>
+    </item>
     
     <item>
       <title>开博大吉</title>
